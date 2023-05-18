@@ -1,0 +1,61 @@
+header {
+    height: 70px;
+    &.navbar {
+      padding: 0.5rem 1.875rem;
+      background-color: #01122D;
+      align-content: space-evenly;
+      z-index: 1003;
+    }
+    .navbar-brand {
+      padding: 0 0 0 1.25rem;
+      position: relative;
+      right: 387px;
+      // margin-inline-end: 740px;
+      // margin-top: -27px;
+      
+     
+    
+      img {
+        max-width: 8.75rem;
+        
+      }
+     
+    }
+   
+    .navbar-nav {
+      .nav-item {
+        align-items: center;
+        display: flex;
+        color: #d1d4d9;
+        // margin: -11px;
+        .pi-user {
+          font-size: 1.7rem;
+          right: 30px;
+        }
+        .pi-sign-out {
+          cursor: pointer;
+          font-size: 1.8rem;
+         
+        }
+        .mx-3{
+          color:#d1d4d9;
+          margin-right: 0.5rem!important;
+          margin-left: -0.5rem!important;
+        }
+      }
+    }
+    .icono-ayuda{
+       
+      left: 201px;
+    padding: 0px 12px 0px 1.25rem;
+    position: relative;
+    border-right: 2px solid #fff;
+       }
+
+    .icono-menu{
+      cursor: pointer;
+     position: relative;
+     right: 191px;
+    }
+  }
+  

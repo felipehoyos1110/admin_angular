@@ -1,0 +1,14 @@
+@import "app/app.component.scss";
+@import "assets/styles/variables.scss";
+@import "app/core/header/header.component.scss";
+// @import "app/core/menu/menu.component.scss";
+
+body {
+    padding: 2em;
+    font-family: -apple-system, BlinkMacSystemFont, “Segoe UI”, Roboto, Helvetica, Arial, sans-serif, “Apple Color Emoji”, “Segoe UI Emoji”, “Segoe UI Symbol”;
+  }
+
+.main-content{
+  height: calc(100vh - 30px);
+  padding: 7rem 0.3rem 1rem 5rem;
+}

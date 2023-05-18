@@ -1,0 +1,135 @@
+// .nenu_mocargo{
+//  color: blueviolet;
+//   background-color: blue;
+// }
+
+nav {
+  background: #DFE6F2;
+  position: absolute;
+  top: 67px;
+  bottom: 0;
+  height: 590px;
+  left: 0;
+  width: 70px;
+  overflow: hidden;
+  -webkit-transition: width .2s linear;
+  transition: width .2s linear;
+  font-family: Kollektif;
+  font-size: 16px;
+}
+
+nav:hover {
+  width: 295px;
+
+}
+
+
+a {
+  position: relative;
+  text-decoration: none;
+  display: table;
+  width: 250px;
+}
+
+
+
+.boton-menu {
+  color: white;
+  background-color: #01122D;
+  top: 290px;
+  height: 51px;
+  width: 296px;
+  text-align: -webkit-center;
+}
+
+.fa {
+  position: relative;
+  right: 115px;
+  top: 13px;
+}
+
+.nav-text {
+  margin: -15px;
+  display: list-item;
+  font-size: 21px;
+}
+
+
+::ng-deep .p-panelmenu .p-panelmenu-panel .p-panelmenu-header>a {
+  background-color: #DFE6F2 !important;
+  color: #8E939B;
+  border-block-end: 1px solid #DFE6F2;
+}
+
+
+
+::ng-deep .p-panelmenu .p-panelmenu-panel .p-panelmenu-header>a:hover {
+  background-color: #ffffff !important;
+}
+
+;
+
+
+::ng-deep .p-panelmenu-header:hover {
+  border-left: 3px solid #2665CB;
+}
+
+;
+
+
+::ng-deep .p-panelmenu .p-panelmenu-panel .p-panelmenu-content {
+  background-color: #DFE6F2 !important;
+}
+
+;
+
+::ng-deep .p-menu-list {
+  background-color: white !important;
+}
+
+;
+
+
+/*Icono ^ */
+::ng-deep .p-panelmenu-icon {
+  order: 1;
+  color: #8E939B;
+  position: relative;
+  left: 40px;
+}
+
+::ng-deep .pi-chevron-down:before {
+  order: 1;
+  color: #0f2bca;
+  position: relative;
+  left: 6px;
+}
+
+
+::ng-deep .p-menuitem-text {
+  color: #9b8e97;
+  position: relative;
+  left: 26px;
+}
+
+::ng-deep .p-menuitem-text:hover {
+  color: #000000;
+  position: relative;
+  left: 26px;
+}
+
+
+::ng-deep .pi-fw {
+  color: #8F939B;
+  left: 9px;
+  position: relative;
+}
+
+::ng-deep .pi-fw:hover {
+  color: #2665CB;
+
+}
+
+::ng-deep .p-panelmenu .p-panelmenu-panel {
+  margin-bottom: 13px;
+}
